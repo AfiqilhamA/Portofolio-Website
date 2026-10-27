@@ -530,10 +530,10 @@ function App() {
                 <div className="p-2 rounded-2xl border border-zinc-800 bg-zinc-900/50">
                   <div className="aspect-[4/5] rounded-xl overflow-hidden bg-zinc-800 flex items-center justify-center relative">
                     <img 
-                      src="/src/assets/profil.jpeg" 
-                      alt="Afiq Ilham Akbar" 
-                      className="w-full h-full object-cover absolute inset-0 z-10"
-                      onError={(e) => { (e.target as HTMLElement).style.display = 'none'; }}
+                      src="/profil.jpeg" 
+  alt="Afiq Ilham Akbar" 
+  className="w-full h-full object-cover absolute inset-0 z-10"
+  onError={(e) => { (e.target as HTMLElement).style.display = 'none'; }}
                     />
                     <span className="text-zinc-500 font-mono text-xs z-0">[Afiq Ilham Akbar Photo Space]</span>
                   </div>
